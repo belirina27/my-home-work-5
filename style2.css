@@ -1,0 +1,113 @@
+
+body {
+	font-family: sans-serif;
+	margin: 0;
+	}
+
+.main {
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 1920px;
+	height: 941px;
+	left: 0;
+	top: 0;
+	align-items: center;
+	min-height: 600px;
+	background: no-repeat;
+	background-image: url(assets/images/fon.png);
+	background-size: cover;
+	position: relative;
+}
+
+.logo {
+	width: 132px;
+    height: 49px;
+    left: 172px;
+    top: 39px;
+}
+
+.header {
+	display: flex;
+	height: 10vh;
+	justify-content: space-between;
+	align-items: center;
+	width: 90%;
+	position: relative;
+	z-index: 2;
+	
+}
+.menu {
+	width: 70%;
+}
+
+.menu ul{
+display: flex;
+justify-content: space-around;	
+list-style: none;
+font-style: normal;
+position: relative;
+font-weight: 600;
+font-size: 18px;
+line-height: 150%;
+
+}
+
+.menu-link {
+    color: #fff;
+	text-decoration: none;
+}
+
+.get-started-btn {
+	border: 1px solid #FF4D00;
+	padding: 10px 20px;
+	border-radius: 100px;
+}
+
+.main-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	text-align: center;
+	
+	width: 1710px;
+	height: 418px;
+
+
+
+}
+
+.main-text span {
+	height: 418px;
+	left: 157px;
+	top: 246px;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	font-size: 200px;
+	line-height: 150%;
+	display: flex;
+	align-items: center;
+}
+
+.main-text p {
+	width: 1221px;
+	height: 300px;
+	left: 179px;
+	top: 424px;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 200px;
+	line-height: 150%;
+	display: flex;
+	align-items: center;
+}
+
+
+
+
+
